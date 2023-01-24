@@ -5,30 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="./css/styles.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Header -->
     <header>
       <nav class="navigation">
-        <a href="./index.html"> WebStudio </a>
+        <a href="./index.html"
+          ><img src="./images/Logo.svg" alt="Web Studio"
+        /></a>
 
-        <ul>
+        <ul class="nav-list">
           <li>
-            <a href="">Studio</a>
+            <a href="./index.html">Studio</a>
           </li>
           <li>
-            <a href="">Portfolio</a>
+            <a href="./portfolio.html">Portfolio</a>
           </li>
           <li>
             <a href="">Contacts</a>
           </li>
         </ul>
       </nav>
-      <address>
-        <ul class="contacts">
+      <address class="contacts">
+        <ul class="nav-list">
           <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
           <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
@@ -36,80 +43,86 @@
     </header>
     <!-- Main -->
     <main>
-      <div>
-        <ul>
+      <div class="button">
+        <ul class="button-list">
           <li>
-            <button type="button">All</button>
+            <button class="button-item" type="button">All</button>
           </li>
-          <li><button type="button">Web Site</button></li>
-          <li><button type="button">App</button></li>
-          <li><button type="button">Design</button></li>
-          <li><button type="button">Marketing</button></li>
+          <li><button class="button-name" type="button">Web Site</button></li>
+          <li><button class="button-name" type="button">App</button></li>
+          <li><button class="button-name" type="button">Design</button></li>
+          <li><button class="button-name" type="button">Marketing</button></li>
         </ul>
       </div>
       <!-- Portfolio -->
-      <section>
-        <ul>
+      <section class="portfolio">
+        <ul class="portfolio-list">
           <li>
-            <img src="./images/portfolio1.jpg" alt="Banking App" width: 360px; />
-            <p>Banking App Interface Concept</p>
-            <p>App</p>
+            <img src="./images/portfolio1.jpg" alt="Banking App" width: 360px;
+            />
+            <p class="portfolio-text">Banking App Interface Concept</p>
+            <p class="portfolio-category">App</p>
           </li>
           <li>
             <img src="./images/portfolio2.jpg" alt="Payment"width: 360px; />
-            <p>Cashless Payment</p>
-            <p>Marketing</p>
+            <p class="portfolio-text">Cashless Payment</p>
+            <p class="portfolio-category">Marketing</p>
           </li>
           <li>
-            <img src="./images/portfolio3.jpg" alt="Meditation App"width: 360px; />
-            <p>Meditaion App</p>
-            <p>App</p>
+            <img src="./images/portfolio3.jpg" alt="Meditation App"width: 360px;
+            />
+            <p class="portfolio-text">Meditaion App</p>
+            <p class="portfolio-category">App</p>
           </li>
         </ul>
       </section>
-      <section>
-        <ul>
+      <section class="portfolio">
+        <ul class="portfolio-list">
           <li>
             <img src="./images/portfolio4.jpg" alt="Taxi" width: 360px;/>
-            <p>Taxi Service</p>
-            <p>Marketing</p>
+            <p class="portfolio-text">Taxi Service</p>
+            <p class="portfolio-category">Marketing</p>
           </li>
           <li>
             <img src="./images/portfolio5.jpg" alt="Screen" width: 360px;/>
-            <p>Screen Illustrations</p>
-            <p>Design</p>
+            <p class="portfolio-text">Screen Illustrations</p>
+            <p class="portfolio-category">Design</p>
           </li>
           <li>
-            <img src="./images/portfolio6.jpg" alt="Online Course" width: 360px;/>
-            <p>Online Courses</p>
-            <p>Marketing</p>
+            <img src="./images/portfolio6.jpg" alt="Online Course" width:
+            360px;/>
+            <p class="portfolio-text">Online Courses</p>
+            <p class="portfolio-category">Marketing</p>
           </li>
         </ul>
       </section>
-      <section>
-        <ul>
+      <section class="portfolio">
+        <ul class="portfolio-list">
           <li>
             <img src="./images/portfolio7.jpg" alt="Instagramm"width: 360px; />
-            <p>Instagram Stories Concept</p>
-            <p>Design</p>
-        </li>
+            <p class="portfolio-text">Instagram Stories Concept</p>
+            <p class="portfolio-category">Design</p>
+          </li>
           <li>
-            <img src="./images/portfolio8.jpg" alt="Organic Food"width: 360px; />
-            <p>Organic Food</p>
-            <p>Web Site</p>
-        </li>
+            <img src="./images/portfolio8.jpg" alt="Organic Food"width: 360px;/>
+            <p class="portfolio-text">Organic Food</p>
+            <p class="portfolio-category">Web Site</p>
+          </li>
           <li>
             <img src="./images/portfolio9.jpg" alt="" />
-            <p>Fresh Coffee</p>
-            <p>Web Site</p>
-        </li>
+            <p class="portfolio-text">Fresh Coffee</p>
+            <p class="portfolio-category">Web Site</p>
+          </li>
         </ul>
       </section>
     </main>
 
     <!-- Footer -->
     <footer class="footer">
-      <a class="footer-logo" href="./index.html">WebStudio </a>
+      <a href="./index.html">
+        <span class="web-item">Web</span>
+        <span class="studio-item">Studio</span></a
+      >
 
       <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
