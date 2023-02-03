@@ -127,7 +127,7 @@ body {
 .button-name {
   font-family: inherit;
   font-style: normal;
-  background: var(--accent-color);
+  background: var(--second-background-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -135,13 +135,25 @@ body {
   color: var(--second-color-text);
   cursor: pointer;
 }
-.button-item {
-}
-
 .button-name {
   background: var(--main-background-color);
   color: var(--second-background-color);
+
 }
+.button-name:hover,
+.button-name:focus {
+ background-color: var(--accent-color);
+ color: var(--main-background-color);
+}
+
+
+
+
+
+
+
+
+
 /* ---------------------------PHOTOS----------------------- */
 .portfolio {
   background: var(--second-color-text);
