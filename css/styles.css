@@ -145,7 +145,10 @@ body {
  background-color: var(--accent-color);
  color: var(--main-background-color);
 }
-
+.btn-item:hover,
+.btn-item:focus{
+  background-color: var(--accent-color);
+}
 
 
 
